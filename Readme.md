@@ -170,12 +170,15 @@ cd lunaro
 
 ```bash
 # Backend
-cd server
+cd backend
 npm install
 
 # Frontend
-cd ../client
+cd ../frontend
 npm install
+
+# Run en ambas terminales (Backend y Frontend)
+npm run dev
 ```
 
 ### 3. Configurar la base de datos
